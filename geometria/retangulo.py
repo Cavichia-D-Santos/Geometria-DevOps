@@ -1,4 +1,4 @@
-def area_retangulo(base, altura):
+def area_retangulo(base, altura): # TODO Agora funciona
     if base <= 0 or altura <= 0:
         return "Digite um valor de entrada válido"
     return base * altura
