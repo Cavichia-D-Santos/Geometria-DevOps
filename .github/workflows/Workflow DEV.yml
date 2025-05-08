@@ -26,6 +26,9 @@ jobs:
       - name: Rodar testes unitários  # Passo para rodar os testes
         run: |  # Executa os comandos abaixo em um shell
           pytest tests/  # Executa os testes unitários com pytest
+
+      - name: todo-issue
+        uses: Juulsn/todo-issue@v1.1.4
           
   Cria-PR-automatico: # Job para criar Pull Request de release
     runs-on: ubuntu-latest
